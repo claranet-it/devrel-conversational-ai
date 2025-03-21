@@ -1,0 +1,32 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.venv/
+.pytest_cache/
+.coverage
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# MacOs
+.DS_Store
+
+# dotenv environment variable files
+.env
+
+# Infra
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+build/
