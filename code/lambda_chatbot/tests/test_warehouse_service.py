@@ -1,5 +1,6 @@
 from src.lambda_handler import lambda_handler
 from src.warehouse_service import get_movements_by_warehouse_and_date
+from src.warehouse_movement_item import WarehouseMovementItem
 
 
 def test_get_movements_by_warehouse_and_date():
@@ -8,19 +9,8 @@ def test_get_movements_by_warehouse_and_date():
         operation_date='2023-10-06'
     )
 
-    expected_movements = [
-        {
-            "pk": "Warehouse_A",
-            "sk": "2023-10-06",
-            "item_description": "Noise Cancelling Headphones",
-            "quantity": 12,
-            "destination": "Warehouse_C",
-            "operation_id": "909828eb"
-        }
-    ]
-
     assert len(movements) == 1
-    assert movements == expected_movements
+    assert "[Operation #909828eb]  Item: Noise Cancelling Headphones - Qty: 12 - DestinationWarehouse_C" == movements[0].__str__()
 
 
 def test_get_empty_movements_by_warehouse_and_date():
