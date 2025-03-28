@@ -6,6 +6,8 @@ locals {
     handler     = "lambda_handler.lambda_handler"
   }
 
+  account_id    = data.aws_caller_identity.current.account_id
+
   lambda_policies = [
     aws_iam_policy.lambda_logging.arn,
     aws_iam_policy.lambda_dynamodb_warehouse_table.arn

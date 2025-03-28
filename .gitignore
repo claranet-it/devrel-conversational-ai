@@ -30,3 +30,6 @@ terraform.tfstate
 terraform.tfstate.backup
 terraform.tfvars
 build/
+
+# Lambda Build
+lambda_chatbot.zip
