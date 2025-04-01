@@ -1,4 +1,4 @@
-from src.warehouse_service import get_movements_by_warehouse_and_date
+from warehouse_service import get_movements_by_warehouse_and_date
 
 
 def lambda_handler(event, context):

@@ -13,7 +13,7 @@ install: # Install dev dependencies
 	pip install -r requirements_dev.txt
 
 test: # Launch tests
-	cd $(LAMBDA_BASE_DIR) && pytest -vv
+	cd $(LAMBDA_BASE_DIR) && PYTHONPATH=src pytest -vv
 
 fixtures: # Load fixtures
 	cd $(SCRIPT_BASE_DIR) && python populate_warehouse.py

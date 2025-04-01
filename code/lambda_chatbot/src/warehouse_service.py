@@ -2,7 +2,7 @@ import boto3
 from boto3.dynamodb.conditions import Key
 from botocore.exceptions import ClientError
 
-from src.warehouse_movement_item import WarehouseMovementItem
+from warehouse_movement_item import WarehouseMovementItem
 
 TABLE_NAME = 'devrel-chatbot-dev-warehouse'
 

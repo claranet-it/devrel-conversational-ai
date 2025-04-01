@@ -1,6 +1,4 @@
-from src.lambda_handler import lambda_handler
-from src.warehouse_service import get_movements_by_warehouse_and_date
-from src.warehouse_movement_item import WarehouseMovementItem
+from warehouse_service import get_movements_by_warehouse_and_date
 
 
 def test_get_movements_by_warehouse_and_date():
