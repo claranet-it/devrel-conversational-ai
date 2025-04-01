@@ -15,7 +15,7 @@ class WarehouseMovementItem:
         self.operation_id = operation_id
 
     def __str__(self):
-        return f'[Operation #{self.operation_id}]  Item: {self.item_description} - Qty: {self.quantity} - Destination{self.destination}'
+        return f'[Operation #{self.operation_id}]  Item: {self.item_description} - Qty: {self.quantity} - Destination: {self.destination}'
 
     @staticmethod
     def from_dict(data):

@@ -1,82 +1,82 @@
 [
     {
-        "pk": "Warehouse_A",
+        "pk": "a",
         "sk": "2023-10-01",
         "item_description": "Laptop 13 inch",
         "quantity": 5,
-        "destination": "Warehouse_B",
+        "destination": "b",
         "operation_id": "3e61bc04"
     },
     {
-        "pk": "Warehouse_A",
+        "pk": "a",
         "sk": "2023-10-02",
         "item_description": "Smartphone 6.1 inch",
         "quantity": 10,
-        "destination": "Warehouse_C",
+        "destination": "c",
         "operation_id": "5a2e6f7b"
     },
     {
-        "pk": "Warehouse_B",
+        "pk": "b",
         "sk": "2023-10-01",
         "item_description": "Tablet 10 inch",
         "quantity": 7,
-        "destination": "Warehouse_A",
+        "destination": "a",
         "operation_id": "8c5b1df6"
     },
     {
-        "pk": "Warehouse_B",
+        "pk": "b",
         "sk": "2023-10-03",
         "item_description": "Monitor UltraWide 60 inch",
         "quantity": 4,
-        "destination": "Warehouse_C",
+        "destination": "c",
         "operation_id": "f31e7b19"
     },
     {
-        "pk": "Warehouse_C",
+        "pk": "c",
         "sk": "2023-10-04",
         "item_description": "Wireless Mouse",
         "quantity": 15,
-        "destination": "Warehouse_A",
+        "destination": "a",
         "operation_id": "b7e7a1bc"
     },
     {
-        "pk": "Warehouse_C",
+        "pk": "c",
         "sk": "2023-10-05",
         "item_description": "Mechanical Keyboard",
         "quantity": 20,
-        "destination": "Warehouse_B",
+        "destination": "b",
         "operation_id": "68a4b5e8"
     },
     {
-        "pk": "Warehouse_A",
+        "pk": "a",
         "sk": "2023-10-06",
         "item_description": "Noise Cancelling Headphones",
         "quantity": 12,
-        "destination": "Warehouse_C",
+        "destination": "c",
         "operation_id": "909828eb"
     },
     {
-        "pk": "Warehouse_B",
+        "pk": "b",
         "sk": "2023-10-07",
         "item_description": "Gaming Laptop",
         "quantity": 8,
-        "destination": "Warehouse_A",
+        "destination": "a",
         "operation_id": "4a67c0dc"
     },
     {
-        "pk": "Warehouse_C",
+        "pk": "c",
         "sk": "2023-10-08",
         "item_description": "External Hard Drive 2TB",
         "quantity": 6,
-        "destination": "Warehouse_A",
+        "destination": "a",
         "operation_id": "6a0b8e29"
     },
     {
-        "pk": "Warehouse_A",
+        "pk": "a",
         "sk": "2023-10-09",
         "item_description": "Fitness Tracker",
         "quantity": 3,
-        "destination": "Warehouse_B",
+        "destination": "b",
         "operation_id": "f8cfc6c5"
     }
 ]

@@ -6,7 +6,7 @@ def good_request_event():
     return {
         "currentIntent": {
             "slots": {
-                "warehouse": "Warehouse_A",
+                "warehouse": "a",
                 "date": "2023-10-06"
             }
         }
@@ -18,7 +18,7 @@ def bad_request_event():
     return {
         "currentIntent": {
             "slots": {
-                "warehouse": "Warehouse_A",
+                "warehouse": "a",
                 "date": "2017-11-11"
             }
         }
